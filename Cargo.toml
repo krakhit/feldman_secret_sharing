@@ -1,0 +1,16 @@
+[package]
+name = "feldman_secret_sharing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ark-ff = { version = "0.3.0", default-features = false }
+ark-bls12-381 = { version = "0.3.0", default-features = false, features = ["curve"] }
+ark-ec = { version = "0.3.0", default-features = false }
+ark-std = { version = "0.3.0", default-features = false }
+rand = "0.8.5"
+num-bigint = "0.4.3"
+sha2 = "0.10.6"
+ark-poly = "0.3.0"
